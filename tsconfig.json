@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "es2015",
+    "moduleResolution": "node", // Cannot find module '@testing-library/react' への対応
     "lib": ["esnext", "dom"],
     "jsx": "react",  // .tsx ファイル内の JSX 記述を認識
     "strict": true,

@@ -19,12 +19,22 @@
 - npm install --save-dev cross-env
 参考：https://qiita.com/riversun/items/d45b26f4a7aad6e51b69
 
+## install jest
+https://tech.willgate.co.jp/entry/2019/12/12/130000
+https://qiita.com/Mr_ozin/items/ff9034e35f67580a7226
+
+今回はreact-testing-libraryを採用
+基本的な使い方：https://qiita.com/ossan-engineer/items/4757d7457fafd44d2d2f
+https://qiita.com/nnishimura/items/521af77125d2b7ad49c5
 
 TODO:eslint
 https://blog.ojisan.io/prettier-eslint-cli
 https://www.tam-tam.co.jp/tipsnote/javascript/post17695.html
 https://zenn.dev/hellorusk/articles/ceb6fee3da4991
 https://zenn.dev/tatsurom/articles/ac7ca21069488198627c
+
+## トランスパイラはts-loaderのほうがいい気がしてきた
+https://qiita.com/jagaapple/items/ce0da04be28c35dc7d4f
 
 ## 詰まったところ
 webpackのmoduleのincludeに間違った指定をしていたからか、tsxのloaderが働かなかった
